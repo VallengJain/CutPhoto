@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CutPhoto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="logoTitle">CutPhoto</h1>
+    </header>
+    <hr>
+
+    <main>    
+        <p>Бесплатное редактирование фото!</p>  
+        <div class="buttonsAndImage">
+            <button id="uploadButton" class="button">Upload Image</button>
+            <button id="clearButton" class="button appear">Clear Image</button>
+            <img id="uploadedImage" alt="Загруженное фото">
+            <button id="cutButton" class="button appear">Cut Image</button>
+            <button id="downloadButton" class="button appear">Download Image</button>
+        </div>
+        <input type="file" id="imageInput" accept="image/*">
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 CutPhoto. Все права защищены.</p>
+        <div class="footer-links">
+            <a href="https://www.goodfon.ru" target="_blank">GoodFon</a> 
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/buttons.js"></script>
+</body>
+</html>
