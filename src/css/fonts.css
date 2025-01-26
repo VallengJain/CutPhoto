@@ -1,15 +1,17 @@
 @font-face {
     font-family: 'PT Sans Caption';
-    src: url('../fonts/PTSans-Caption.woff') format('woff'),
-    url('../fonts/PTSans-Caption.woff2') format('woff2');
+    src: url('../fonts/PTSans-Caption.woff2') format('woff2'),
+    url('../fonts/PTSans-Caption.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'PT Sans Caption';
-    src: url('../fonts/PTSans-CaptionBold.woff') format('woff'),
-    url('../fonts/PTSans-CaptionBold.woff2') format('woff2');
+    src: url('../fonts/PTSans-CaptionBold.woff2') format('woff2'),
+    url('../fonts/PTSans-CaptionBold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
