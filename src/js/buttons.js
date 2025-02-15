@@ -55,7 +55,6 @@ function downloadImage(dataURL, filename) {
 function saveUI() {
     const savedImage = localStorage.getItem('uploadedImage');
     const savedButtons = localStorage.getItem('savedButtons') === 'true';
-    //const cuttedImage = localStorage.getItem('cuttedImage');
 
     if (savedImage) {
         uploadedImage.src = savedImage;

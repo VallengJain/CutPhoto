@@ -5,32 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CutPhoto</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="icons/favicon.png">
 </head>
 <body>
     <header class="header">
-        <h1 id="logoTitle">CutPhoto</h1>
+        <h1 class="header__logo" id="headerLogo">CutPhoto</h1>
+        <hr class="header__divider">
+        <p class="header__text">Бесплатное редактирование фото!</p>
     </header>
-    <hr>
 
     <main>    
-        <p>Бесплатное редактирование фото!</p>  
-        <div class="buttonsAndImage">
-            <button id="uploadButton" class="button">Upload Image</button>
-            <button id="clearButton" class="button appear">Clear Image</button>
-            <img id="uploadedImage" alt="Загруженное фото">
-            <button id="cutButton" class="button appear">Cut Image</button>
-            <button id="downloadButton" class="button appear">Download Image</button>
+        <div class="workspace">
+            <button class="workspace__button" id="uploadButton">Upload Image</button>
+            <button class="workspace__button workspace__button--reveal" id="clearButton">Clear Image</button>
+            <img class="workspace__image" id="uploadedImage" alt="Загруженное фото">
+            <button class="workspace__button workspace__button--reveal" id="cutButton">Cut Image</button>
+            <button class="workspace__button workspace__button--reveal" id="downloadButton">Download Image</button>
+            <input class="workspace__input" id="imageInput" type="file" accept="image/*">
         </div>
-        <input type="file" id="imageInput" accept="image/*">
     </main>
     
     <footer class="footer">
-        <p>&copy; 2024 CutPhoto. Все права защищены.</p>
+        <p class="footer-text">&copy; 2024 CutPhoto. Все права защищены.</p>
         <div class="footer-links">
-            <a href="https://www.goodfon.ru" target="_blank">GoodFon</a> 
+            <a class="footer-link" href="https://www.goodfon.ru" target="_blank">GoodFon</a> 
         </div>
     </footer>
 
