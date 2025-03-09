@@ -1,0 +1,8 @@
+/* Global */
+@import "global/reboot.css";
+@import "global/fonts.css";
+
+/* Blocks */
+@import "blocks/header.css";
+@import "blocks/workspace.css";
+@import "blocks/footer.css";
