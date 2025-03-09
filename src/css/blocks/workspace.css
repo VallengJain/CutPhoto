@@ -11,6 +11,7 @@
 
 .workspace__button {
     background-color: blueviolet;
+    border: none;
     color: azure;
     padding: 1rem 2rem;
     font-size: 1rem;
