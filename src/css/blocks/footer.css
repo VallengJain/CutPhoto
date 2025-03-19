@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.footer-text {
+.footer__text {
     font-size: 1.8rem;
     font-weight: 400;
     color: azure;
@@ -15,17 +15,21 @@
     margin-bottom: 2rem;
 }
 
-.footer-links {
+.footer__links {
     display: flex;
     flex-direction: column;
 }
 
-.footer-link {
-    color: blue;
+.footer__link {
+    color: #0000FF;
     text-decoration: none;
     display: block;
 }
 
-.footer-link:hover {
+.footer__link:visited {
+    color: #0000FF;
+}
+
+.footer__link:hover {
     text-decoration: underline;
 }
