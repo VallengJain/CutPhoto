@@ -1,7 +1,6 @@
 const uploadButton = document.getElementById('uploadButton');
 const imageInput = document.getElementById('imageInput');
 const clearButton = document.getElementById('clearButton');
-const uploadedImageWrapper = document.getElementById('uploadedImageWrapper');
 const uploadedImage = document.getElementById('uploadedImage');
 const cutButton = document.getElementById('cutButton')
 const downloadButton = document.getElementById('downloadButton');
@@ -17,7 +16,6 @@ imageInput.addEventListener('change', (event) => {
         const reader = new FileReader();
 
         reader.onload = (e) => {
-            uploadedImageWrapper.style.display = 'block';
             const imageDataURL = e.target.result;
             uploadedImage.src = imageDataURL;
             uploadedImage.style.display = 'block';

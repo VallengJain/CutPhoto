@@ -29,29 +29,9 @@
     background-color: rgb(104, 32, 172);
 }
 
-.workspace__image-wrapper {
+.workspace__image {
     max-width: 90vw;
     max-height: 90vh;
     border: 0.15rem solid azure;
-    position: relative;
-    overflow: hidden;
-}
-
-.workspace__image-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.workspace__image-wrapper:hover::after {
-    opacity: 0;
-}
-
-.workspace__image {
-    width: 100%;
     display: none;
 }

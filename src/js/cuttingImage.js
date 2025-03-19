@@ -1,4 +1,3 @@
-const uploadedImageWrapper = document.getElementById('uploadedImageWrapper');
 const uploadedImage = document.getElementById('uploadedImage');
 const savedImage = localStorage.getItem('uploadedImage');
 const savingButton = document.getElementById('savingButton');
@@ -6,7 +5,6 @@ const backButton = document.getElementById('backButton');
 
 if (savedImage) {
     uploadedImage.src = savedImage;
-    uploadedImageWrapper.style.display = 'block';
     uploadedImage.style.display = 'block';
 } else {
     alert("Изображение не было загружено!");
